@@ -11,7 +11,7 @@ class QuizQuestion extends Component {
         <section className="buttons">
           <ul>
             {this.props.quiz_question.answer_options.map((index,answer_option) => {
-             return <QuizQuestionButton button_text={answer_option} key={index} />
+             return <QuizQuestionButton key={index} button_text={answer_option} />
             })}
           </ul>
         </section>
