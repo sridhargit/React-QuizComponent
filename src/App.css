@@ -1,3 +1,7 @@
+h1, p {
+  font-family: Lato;
+}
+
 .QuizQuestion {
   display: flex;
   justify-content: center;
